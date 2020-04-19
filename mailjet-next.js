@@ -42,7 +42,7 @@ const ACTION = 2;
 import qs from 'querystring';
 import request from 'request';
 import _path from 'path';
-import config from './config';
+import config from './config.json';
 import util from 'util';
 
 class MailjetResource {
